@@ -32,7 +32,7 @@ def get_supabase_client() -> Client:
     try:
         return create_client(SUPABASE_URL,SUPABASE_KEY)
     except Exception as e:
-        st.error(f"Supabase connection fail: {e})
+        st.error(f"Supabase connection fail: {e} )
         return None
 supabase = get_supabase_client()
 
