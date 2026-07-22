@@ -1,11 +1,8 @@
 
 import streamlit as st
+import pandas as pd
 from supabase import create_client, Client
-import uuid
-import hashlib
-import base64
-from datetime import date
-from io import BytesIO
+import datetime 
 
 
 
