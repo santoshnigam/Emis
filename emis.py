@@ -24,7 +24,7 @@ st.set_page_config(
 # =========================================================
 #SUPABASE
 # =========================================================
-SUPABASE_URL = st.secrets["supabase_url]
+SUPABASE_URL = st.secrets["supabase_url"]
 SUPABASE_KEY = st.secrets["supabase_key"]
 
 @st.cache_resource
