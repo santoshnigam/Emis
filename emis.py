@@ -6,7 +6,7 @@ import hashlib
 import base64
 from datetime import date
 from io import BytesIO
-from reportlab.lib.pagesizes import A4
+
 
 
 # =========================================================
