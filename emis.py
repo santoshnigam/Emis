@@ -10,18 +10,6 @@ from io import BytesIO
 
 
 # =========================================================
-# PAGE CONFIG
-# =========================================================
-
-st.set_page_config(
-    page_title="School Management System",
-    page_icon="🏫",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
-
-
-# =========================================================
 #SUPABASE
 # =========================================================
 SUPABASE_URL = st.secrets["supabase_url"]
@@ -36,7 +24,16 @@ def get_supabase_client() -> Client:
         return None
 supabase = get_supabase_client()
 
+# =========================================================
+# PAGE CONFIG
+# =========================================================
 
+st.set_page_config(
+    page_title="School Management System",
+    page_icon="🏫",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 
 # =========================================================
