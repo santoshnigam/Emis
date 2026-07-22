@@ -1,6 +1,6 @@
 
 import streamlit as st
-import sqlite3
+from supabase import create_client, Client
 import uuid
 import hashlib
 import base64
